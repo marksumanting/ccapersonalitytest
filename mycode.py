@@ -18,9 +18,12 @@ music2 = input("I play a musical instrument well.")
 
 tech3 = input("I can code well")
 
-
-
 print()
+
+tech_final=tech1+tech2
+outdoor_final=outdoor1+outdoor2
+music_final=music1+music2
+
 
 if tech_final > outdoor_final and tech_final > music_final:
   print("You might be suitable for Infocomm club!")
@@ -28,5 +31,3 @@ elif outdoor_final > music_final:
   print("You might be stuiable for ODAC!")
 else:
   print("You might be suitable for Band!")
-
-  
